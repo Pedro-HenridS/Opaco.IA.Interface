@@ -1,0 +1,119 @@
+############################
+# Build
+############################
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+artifacts/
+publish/
+TestResults/
+
+############################
+# User-specific
+############################
+*.user
+*.rsuser
+*.suo
+*.userosscache
+*.sln.docstates
+
+############################
+# Visual Studio
+############################
+.vs/
+
+############################
+# VS Code
+############################
+.vscode/
+!.vscode/extensions.json
+!.vscode/tasks.json
+!.vscode/launch.json
+
+############################
+# JetBrains Rider
+############################
+.idea/
+
+############################
+# NuGet
+############################
+*.nupkg
+*.snupkg
+packages/
+!packages/build/
+.nuget/
+
+############################
+# Secrets
+############################
+appsettings.Development.json
+appsettings.Local.json
+.env
+.env.*
+!.env.example
+
+############################
+# User Secrets
+############################
+secrets.json
+
+############################
+# Certificates
+############################
+*.pfx
+*.p12
+*.pem
+*.key
+*.crt
+
+############################
+# Docker
+############################
+docker-compose.override.yml
+docker-compose.*.override.yml
+
+############################
+# OS
+############################
+.DS_Store
+Thumbs.db
+desktop.ini
+
+############################
+# Logs
+############################
+*.log
+
+############################
+# Temporary files
+############################
+*.tmp
+*.temp
+*.cache
+
+############################
+# Coverage
+############################
+coverage/
+coverage.*
+*.coverage
+*.coveragexml
+
+############################
+# Generated files
+############################
+Generated/
+generated/
+
+############################
+# Resharper
+############################
+_ReSharper*/
+*.DotSettings.user
+
+############################
+# Azure
+############################
+.publish/

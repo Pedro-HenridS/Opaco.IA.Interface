@@ -1,0 +1,6 @@
+@Opaco.IA.Interface_HostAddress = http://localhost:5066
+
+GET {{Opaco.IA.Interface_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
